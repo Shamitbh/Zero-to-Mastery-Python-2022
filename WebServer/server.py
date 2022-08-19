@@ -5,6 +5,6 @@ app = Flask(__name__)
 def my_home():
     return render_template('./index.html')
 
-@app.route('/blog')
-def blog():
-    return 'This is my blog'
+@app.route('/contact.html')
+def contact():
+    return render_template('./contact.html')
