@@ -12,3 +12,7 @@ def contact():
 @app.route('/elements.html')
 def elements():
     return render_template('./elements.html')
+
+@app.route('/generic.html')
+def generic():
+    return render_template('./generic.html')
